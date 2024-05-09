@@ -3,6 +3,7 @@ import * as tf from "@tensorflow/tfjs"
 import * as facemesh from "@tensorflow-models/facemesh"
 import Webcam from "react-webcam"
 import './App.css';
+import { drawMesh } from './components/utilities'
 import React, { useRef } from 'react';
 
 function App() {
